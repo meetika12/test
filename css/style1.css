@@ -1,0 +1,76 @@
+﻿.logo
+{
+float:left;
+width: 40%;
+background-color: red;
+}
+
+.login
+{
+float:left;
+width: 60%;
+text-align:right;
+position:fixed;
+right:11%;
+//background-color: blue;
+}
+
+.signup
+{
+
+float:left;
+position:relative;
+text-align:right;
+right:17%;
+width:60%;
+//background-color: orange;
+}
+
+.pic
+{
+float:left;
+width:40%;
+background-color: purple;
+}
+
+.top
+{
+height: 20%;
+}
+
+.resize
+{
+    width:350px
+}
+
+.signup-lastname,.resize,.dob
+{
+
+position:fixed;
+right:16%;
+}
+
+.signup-firstname
+{
+position:fixed;
+right:29%;
+}
+
+.check
+{
+position:fixed;
+right:35%;
+text-align:left;
+}
+
+input[type=radio ]{
+  position:fixed;
+right:40%;
+}
+
+.Signup-submit
+{
+position:left;
+}
+
+
