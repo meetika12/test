@@ -9,10 +9,10 @@ width: 40%;
 
 .login
 {
-float:left;
+float:right;
 width: 60%;
 text-align:right;
-position:fixed;
+//position:fixed;
 right:11%;
 
 //background-color: #D3D3D3;
@@ -21,11 +21,12 @@ right:11%;
 .signup
 {
 
-float:left;
-position:fixed;
-text-align:right;
+float:right;
+//position:fixed;
+text-align:left;
 right:17%;
 width:60%;
+margin-top:100 px;
 //background-color: #D3D3D3;
 
 }
@@ -33,9 +34,14 @@ width:60%;
 .pic
 {
 float:left;
-width:40%;
+//width:50%;
 
 //background-color: #D3D3D3;
+}
+.img
+{
+width:100 px;
+height:100 px;
 }
 
 .top
@@ -51,26 +57,26 @@ height: 20%;
 .signup-lastname,.resize,.dob
 {
 
-position:fixed;
+//position:fixed;
 right:16%;
 }
 
 .signup-firstname
 {
-position:fixed;
+//position:fixed;
 right:29%;
 }
 
 .check
 {
-position:fixed;
+//position:fixed;
 right:35%;
 text-align:left;
 }
 
 input[type=radio ]{
-  position:fixed;
-right:40%;
+  //position:fixed;
+//right:40%;
 }
 
 .Signup-submit
@@ -83,8 +89,8 @@ body {
 }
 .bottom
 {
-height:80%;
-width:40;
+//height:80%;
+//width:40;
 }
 
 
