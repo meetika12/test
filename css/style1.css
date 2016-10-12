@@ -1,7 +1,7 @@
 ﻿.logo
 {
 float:left;
-width: 40%;
+width: 50%;
 //padding-left:10px;
 
 //background-color: #D3D3D3;
@@ -9,11 +9,11 @@ width: 40%;
 
 .login
 {
-float:right;
-width: 60%;
+float:left;
+width: 50%;
 text-align:right;
 //position:fixed;
-right:11%;
+//right:11%;
 
 //background-color: #D3D3D3;
 }
@@ -21,22 +21,22 @@ right:11%;
 .signup
 {
 
-float:right;
+float:left;
 //position:fixed;
-text-align:left;
-right:17%;
-width:60%;
-margin-top:100 px;
-//background-color: #D3D3D3;
+//text-align:left;
+//right:17%;
+width:50%;
+//margin-top:100 px;
+background-color: #D3D3D3;
 
 }
 
 .pic
 {
 float:left;
-//width:50%;
+width:50%;
 
-//background-color: #D3D3D3;
+background-color: red;
 }
 .img
 {
@@ -64,14 +64,14 @@ right:16%;
 .signup-firstname
 {
 //position:fixed;
-right:29%;
+//right:29%;
 }
 
 .check
 {
 //position:fixed;
-right:35%;
-text-align:left;
+//right:35%;
+//text-align:left;
 }
 
 input[type=radio ]{
@@ -85,11 +85,11 @@ position:left;
 }
 
 body {
-    background-color: #D3D3D3;
+    //background-color: #D3D3D3;
 }
 .bottom
 {
-//height:80%;
+height:80%;
 //width:40;
 }
 
