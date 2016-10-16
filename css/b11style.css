@@ -127,9 +127,9 @@ html {
 	color: white;
 }
 
-.radio
+input[type=radio ]
 {
-float:left;
-padding-left:none;
+//float:left;
+//padding-left:none;
 
 }
