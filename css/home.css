@@ -1,0 +1,102 @@
+﻿html,body,div,p,ul,li,h1
+{
+	margin:0;
+}
+
+.sbmt-btn
+{
+	margin-top:20px;
+	border:none;
+	padding:10px;
+	background:red;
+	color:white;
+	border-radius:4px;
+	cursor:pointer;
+}
+.sbmt-btn:hover
+{
+	background:black;
+}
+.header
+{
+	height:100px;
+	width:100%;
+	background:gray;
+	text-align:center;
+	font-family:monospace;
+}
+.header h1
+{
+	padding-top:25px;
+	color:white;
+}
+.menu_bar
+{
+	height:40px;
+	width:100%;
+	background:orange;
+	text-align:center;
+}
+
+
+.body_container
+{
+
+}
+.left_navigation
+{
+	height:500px;
+	width:15%;
+	background:green;
+	float:left;
+}
+.body
+{
+	height:500px;
+	width:55%;
+	background-color:red;
+	float:left;
+	
+}
+.body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.body li {
+  display: inline-block;
+	
+}
+
+
+
+.active
+{
+	background:white !important;
+}
+.right_navigation
+{
+	height:500px;
+	width:15%;
+	background:green;
+	margin-left:85%;
+}	
+.footer
+{
+	height:50px;
+	background:orange;
+	width:100%;
+	text-align:center;
+}
+.parent
+{
+	background-image:url("abc.jpg");
+	
+}
+.links
+{
+	width:15%;
+	height:500px;
+	background:pink;
+	float:left;
+}
