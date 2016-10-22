@@ -133,3 +133,17 @@ input[type=radio ]
 //padding-left:none;
 
 }
+
+.findconn
+{
+	//width: 100px;
+	background: grey;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+
