@@ -14,8 +14,8 @@
 		<div class="login">
     		<form action="login.html">
     
-    		<input type="email" name="email" class="login-input" placeholder="Email Address" autofocus>
-    		<input type="password" name="password" class="login-input" placeholder="Password">
+    		<input type="email" name="email" class="login-input" placeholder="Email Address"  required autofocus>
+    		<input type="password" name="password" class="login-input" placeholder="Password" required>
     		<input type="submit" value="Login" class="login-submit">
     		<p class="login-help">
 		<input type="checkbox" name="log_in" class="check">Keep me logged in
@@ -40,20 +40,21 @@ oksssssss <br>-->
 		
  </div>
 		<div class="signup">
+<form action="login.html">
 		
 <h1>NEW HERE?SIGN UP</h1>
-		 <input type="text" name="fname" placeholder="First name" class="signup-firstname" autofocus>
-		<input type="text" name="lname" placeholder="Last name" class="signup-lastname" autofocus><br>
+		 <input type="text" name="fname" placeholder="First name" class="signup-firstname" autofocus required>
+		<input type="text" name="lname" placeholder="Last name" class="signup-lastname" autofocus required><br>
 		 
-    	<input type="email" name="email" class="resize" placeholder="Email Address" autofocus><br>
-	<input type="email" name="email" class="resize" placeholder="Reenter Email Address" autofocus><br>
+    	<input type="email" name="email" class="resize" placeholder="Email Address" autofocus required><br>
+	<input type="email" name="email" class="resize" placeholder="Reenter Email Address" autofocus required><br>
 
-    	<input type="password" name="password" class="resize" placeholder="Password"><br>
-	<input type="password" name="password" class="resize" placeholder="Reenter Password"><br>
-	<input type="radio" name="gender" value="male" > Male
-  	<input type="radio" name="gender" value="female"> Female<br>
+    	<input type="password" name="password" class="resize" placeholder="Password" required><br>
+	<input type="password" name="password" class="resize" placeholder="Reenter Password" required><br>
+	<input type="radio" name="gender" value="male" required> Male
+  	<input type="radio" name="gender" value="female" required> Female<br>
 	Birthday
-	<input type="date"  name="dob" class="dob">
+	<input type="date"  name="dob" class="dob" required>
 	<p class="terms">By clicking sign-up ,you agree to our terms and that you have read our data policy</p>
 	 <input type="submit" value="Signup" class="Signup-submit">
 
